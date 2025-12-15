@@ -10,7 +10,7 @@ jobs:
 
     steps:
       # 1️⃣ Checkout du code
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           submodules: false   # Désactive les sous-modules pour éviter les erreurs
 
